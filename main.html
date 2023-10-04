@@ -27,27 +27,27 @@
         border: 2px dotted rgb(38, 38, 43);
       }
 
-      #r1c1 {
+      .r1c1 {
         background-color: teal;
       }
 
-      #r1c2 {
+      .r1c2 {
         background-color: thistle;
       }
 
-      #r2c1 {
+      .r2c1 {
         background-color: tomato;
       }
 
-      #r2c2 {
+      .r2c2 {
         background-color: turquoise;
       }
 
-      #r3c1 {
+      .r3c1 {
         background-color: violet;
       }
 
-      #r3c2 {
+      .r3c2 {
         background-color: yellowgreen;
       }
     </style>
@@ -58,16 +58,16 @@
     <main>
       <section class="container text-center">
         <div class="row">
-          <div id="r1c1" class="col-sm-6 col-md-4">Row1 col1</div>
-          <div id="r1c2" class="col-sm-6 col-md-8">Row1 col2</div>
+          <div class="col-sm-6 col-md-4 r1c1">Row1 col1</div>
+          <div class="col-sm-6 col-md-8 r1c2">Row1 col2</div>
         </div>
         <div class="row">
-          <div id="r2c1" class="col-md-4 offset-md-2">Row2 col1</div>
-          <div id="r2c2" class="col-md-4 offset-md-2">Row2 col2</div>
+          <div class="col-md-4 offset-md-2 r2c1">Row2 col1</div>
+          <div class="col-md-4 offset-md-2 r2c2">Row2 col2</div>
         </div>
-        <div class="row justify-content-center align-items-stretch">
-          <div id="r3c1" class="col-sm-6 col-md-4">Row3 col1</div>
-          <div id="r3c2" class="col-sm-6 col-md-4">Row3 col2</div>
+        <div class="row justify-content-between align-items-stretch">
+          <div class="col-sm-6 col-md-4 r3c1">Row3 col1</div>
+          <div class="col-sm-6 col-md-4 r3c2">Row3 col2</div>
         </div>
       </section>
     </main>
